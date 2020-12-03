@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Formulaires</title>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="contact.html">contact</a></li>
+            <li><a href="exo.html">exo</a></li>
+            <li><a href="index.html">Accueil</a></li>
+        </ul>
+    </nav>
+
+    
+
+    <form action="/action_page.php" class="formulaire">
+        <div class="container"><h1>Nous souhaitons nous améliorer</h1><br><br>
+
+            <p>Dis moi comment je peux m'améliorer</p>
+
+
+        <label for="name">* Ton nom :</label><br>
+        <input type="text" id="name" name="name" placeholder="Nom et Prénom"><br>
+        <label for="mail">* Ton Email :</label><br>
+        <input type="email" id="mail" name="mail" placeholder="Ton Email"><br>
+        <label for="age">* Ton âge :</label><br>
+        <input type="number" id="age" name="age" placeholder="Ton âge"><br>
+    <br><br>
+
+    
+        <label for="situation">Qu'est-ce qui te correspond le mieux à l'instant présent :</label><br>
+        <select id="situation" name="situation">
+            <option value="" disabled selected hidden>Dis moi en plus sur toi</option>
+            <option value="Étudiant">Étudiant</option>
+            <option value="Employé">Employé</option>
+            <option value="Profession libérale">Profession libérale</option>
+            <option value="Je ne préfère rien dire">Je ne préfère rien dire</option>
+            <option value="Autre">Autre</option>
+        </select><br><br>
+    
+
+    <p>Est-ce que tu me recommandes ?</p>
+    
+        <label for="oui">Oui</label>
+        <input type="radio" id="recommandation" name="recommandation" value="Oui"><br>
+        <label for="peut-être">Peut-être</label>
+        <input type="radio" id="recommandation" name="recommandation" value="Peut-être"><br>
+        <label for="non">Non</label>
+        <input type="radio" id="recommandation" name="recommandation" value="Non"><br>
+    <br>
+
+    
+        <label for="services">Pourquoi as tu choisis mes services ?</label><br>
+        <select id="services" name="services">
+            <option value="" disabled selected hidden>Choisis une réponse</option>
+            <option value="Étudiant">Pour ce que je propose</option>
+            <option value="Employé">Pour les différents projets réalisés</option>
+            <option value="Profession libérale">Par recommandantion</option>
+            <option value="Je ne préfère rien dire">Le fait d'être transparent avec ma communauté</option>
+        </select>
+    <br><br>
+
+    <p>Qu'est-ce que je dois améliorer :</p>
+    
+        <p>(Choix illimités) :</p>
+        <input type="checkbox" id="upgrade" name="upgrade" value="portfolio">
+        <label for="portfolio">Le Portfolio</label><br>
+        <input type="checkbox" id="upgrade" name="upgrade" value="vente">
+        <label for="ventes">La page de vente</label><br>
+        <input type="checkbox" id="upgrade" name="upgrade" value="socials">
+        <label for="socials">Présence sur les réseaux sociaux</label><br>
+        <input type="checkbox" id="upgrade" name="upgrade" value="contact">
+        <label for="contact">le formulaire de contact</label><br>
+        <input type="checkbox" id="upgrade" name="upgrade" value="design">
+        <label for="design">Le design du portfolio</label><br>
+    <br>
+
+    <p>Un commentaire à ajouter ?</p>
+    
+        <textarea name="message" style="width:200px; height:100px;" placeholder="Chaque commentaire nous fait avancer, alors n'hésites pas !"></textarea>
+
+        </textarea><br>
+        <input type="submit" value="Submit">
+    </form><br>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1391.8002320453343!2d4.894837775826979!3d45.75915518495113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sfr!4v1605781510606!5m2!1sfr!2sfr" width="300" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</div>
+
+    
+
+ 
+
+    
+</body>
+</html>

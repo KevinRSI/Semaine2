@@ -1,0 +1,12 @@
+body {
+    color: black;
+}
+
+.center {
+    text-align: center;
+}
+
+.p1 {
+    border: dotted 4px lightblue;
+    opacity: 0.5;
+}
